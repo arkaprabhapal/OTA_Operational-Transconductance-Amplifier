@@ -4,6 +4,9 @@ Minimum gain = 35dB, Vdd = 1.8V, output swing = 1V p-p, Load capacitance = 10pF,
 
 
 # At first we have to find out the device parameters.
+For that I have used this circuit :
+- ![image](https://github.com/user-attachments/assets/0bb2df2c-5164-4ed3-8f08-c4d04d6aff7c)
+
 By DC Analysis we are finding out these values:
 - **NMOS**
 - ![Screenshot-5](https://github.com/user-attachments/assets/4ac88d3b-cd66-40f5-bd22-d436f10e01d5)
