@@ -3,7 +3,7 @@
 Minimum gain = 35dB, Vdd = 1.8V, output swing = 1V p-p, Load capacitance = 10pF, Gain Bandwidth = 5MHz, Maximum power required = 100uW
 
 
-#At first we have to find out the device parameters.
+# At first we have to find out the device parameters.
 By DC Analysis we are finding out these values.
 ![Screenshot-5](https://github.com/user-attachments/assets/4ac88d3b-cd66-40f5-bd22-d436f10e01d5)
 μnCox = 297.362 μA/V²
