@@ -1,6 +1,7 @@
 # OTA_Operational.Transconductance.Amplifier
 
-Minimum gain = 35dB, Vdd = 1.8V, output swing = 1V p-p, Load capacitance = 10pF, Gain Bandwidth = 5MHz, Maximum power required = 100uW
+*Given specifications*: 
+Gain ≥ 35dB, Vdd = 1.8V, output swing = 1V p-p, Load capacitance = 10pF, Unity Gain Frequency ≥ 5MHz, Power ≤ 100uW, Phase Margin ≥ 60 degrees, Slew Rate ≥ 5V/μs
 
 
 # At first we have to find out the device parameters.
