@@ -14,14 +14,9 @@ By DC Analysis we are finding out these values:
 - μnCox = 297.362 μA/V²
 - ![Screenshot-6](https://github.com/user-attachments/assets/fdf30312-c01c-48d6-9b10-6c8e30406f07)
 - Vth = 0.19V
-- ![Screenshot-10](https://github.com/user-attachments/assets/799ad688-e9e5-4317-ba04-e044fb56e24d)
-- ro = 24kohm
 
 **PMOS**
 - ![Screenshot-7](https://github.com/user-attachments/assets/e88810d2-dbfb-4c14-b2b8-77e3cf23b2c3)
 - μpCox = 135 μA/V²
 - ![Screenshot-8](https://github.com/user-attachments/assets/060af715-0957-4381-88ea-0388a2082071)
 - Vth = - 0.18V
-- ![Screenshot-9](https://github.com/user-attachments/assets/d4fed133-a97e-4713-aed2-e9979a3215f9)
-- ro = 33.165 kohm
-
