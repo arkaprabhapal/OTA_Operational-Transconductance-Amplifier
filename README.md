@@ -1,7 +1,7 @@
 # OTA_Operational.Transconductance.Amplifier
 
 *Given specifications*: 
-Gain ≥ 35dB, Vdd = 1.8V, output swing = 1V p-p, Load capacitance = 10pF, Unity Gain Frequency ≥ 5MHz, Power ≤ 100uW, Phase Margin ≥ 60 degrees, Slew Rate ≥ 5V/μs
+Gain ≥ 35dB, Vdd = 1.8V, output swing = 1V p-p, Load capacitance = 10pF, Unity Gain Frequency ≥ 5MHz, Power ≤ 100uW, Phase Margin ≥ 60 degrees, Slew Rate ≥ 5V/μs, ICMR+ = 1.6V, ICMR- = 0.8V
 
 
 # At first we have to find out the device parameters.
