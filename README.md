@@ -21,7 +21,7 @@
   - [3.2 Current mirror PMOS](#32-Current-mirror-PMOS)
   - [3.3 Current mirror NMOS](#33-Current-mirror-NMOS)
 - [4. Initial analysis](#4-Initial-analysis)
-- [5. Final Design dimensions](#5-Final-Design-dimensions)
+- [5. Final Transistor dimensions](#5-Final-Transistor-dimensions)
 - [6. Final Analysis](#6-Final-Analysis)
 
 ## 1. Finding out Device parameters
@@ -68,7 +68,7 @@ Its dimensions were calculated from ICMR- value and the calculated value was (W/
 
 The gain is slightly low at ICMR = 1.6V and the ouput DC voltage level is slightly low than calculated. So the circuit is tuned accordingly.
 
-## 5. Final Design dimensions
+## 5. Final Transistor dimensions
 - **Current mirror PMOS** : (W/L) = **8**
 - **Input pair NMOS** : (W/L) = **9**
 - **Current mirror NMOS** : (W/L) = **5.87**
@@ -83,6 +83,12 @@ The gain is slightly low at ICMR = 1.6V and the ouput DC voltage level is slight
 - ![Screenshot-9](https://github.com/user-attachments/assets/e9eb05dd-d601-412a-921e-ea9f1a5891d8)
 - ![Screenshot-8](https://github.com/user-attachments/assets/532b2bd9-4337-4e1b-b480-558b898559d5)
 - Gain = 35.87 dB and UGF = 5.71 MHz
+
+## 7. Final design
+- **FInal ciecuit design**
+- ![Screenshot-13](https://github.com/user-attachments/assets/fa32796b-d7de-4ee7-af8a-40fb99170104)
+- **Symbol creation**
+- ![Screenshot-14](https://github.com/user-attachments/assets/a7de3671-85b2-4648-b4b1-8fa6e819db6d)
 
 
 
