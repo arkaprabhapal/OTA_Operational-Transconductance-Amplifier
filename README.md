@@ -72,7 +72,7 @@ The gain is slightly low at ICMR = 1.6V and the ouput DC voltage level is slight
 - **Current mirror PMOS** : (W/L) = **8**
 - **Input pair NMOS** : (W/L) = **9**
 - **Current mirror NMOS** : (W/L) = **5.87**
-- 
+  
 ## 6. Final Analysis
 
 ### At ICMR = 0.8V
