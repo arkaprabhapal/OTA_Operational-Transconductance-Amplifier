@@ -21,6 +21,8 @@
   - [3.2 Current mirror PMOS](#32-Current-mirror-PMOS)
   - [3.3 Current mirror NMOS](#33-Current-mirror-NMOS)
 - [4. Initial analysis](#4-Initial-analysis)
+- [5. Final Design dimensions](#5-Final-Design-dimensions)
+- [6. Final Analysis](#6-Final-Analysis)
 
 ## 1. Finding out Device parameters
 For that I have used this circuit :
@@ -58,29 +60,29 @@ Its dimensions were calculated from ICMR- value and the calculated value was (W/
 ### At ICMR = 0.8V
 - ![Screenshot](https://github.com/user-attachments/assets/7aa7f112-9508-4afa-8250-f48ceebdc3fe)
 - ![Screenshot-1](https://github.com/user-attachments/assets/459ecb4e-d831-4714-9618-14f39dd1a5f8)
-- Gain = 38.5dB and UGF = 5.04MHz
+- Gain = 38.5dB and UGF = 5.04 MHz
 ### At ICMR = 1.6V
 - ![Screenshot-4](https://github.com/user-attachments/assets/c2f19236-3c48-4963-8041-36b2338b3b24)
 - ![Screenshot-3](https://github.com/user-attachments/assets/6876d200-7ac2-4e22-9dcd-96a14a0d876f)
-- Gain = 34.2 dB and UGF = 5.07MHz
+- Gain = 34.2 dB and UGF = 5.07 MHz
 
-So at both ICMR value the DC operating is perfect and all the transistors are operating in saturation region. But the gain is slightly low at ICMR = 1.6 V.
-So, I am tuning the input pair NMOS to achieve higher gain.
+The gain is slightly low at ICMR = 1.6V and the ouput DC voltage level is slightly low than calculated. So the circuit is tuned accordingly.
 
 ## 5. Final Design dimensions
-- **Current mirror PMOS** : (W/L) = **7**
-- **Input pair NMOS** : (W/L) = **10**
+- **Current mirror PMOS** : (W/L) = **8**
+- **Input pair NMOS** : (W/L) = **9**
 - **Current mirror NMOS** : (W/L) = **5.87**
 - 
-## 5 Final Analysis
+## 6. Final Analysis
+
 ### At ICMR = 0.8V
-- 
-- 
-- Gain = dB and UGF = MHz
+- ![Screenshot-11](https://github.com/user-attachments/assets/a7a093a3-1394-4c71-a15e-9fb26329e387)
+- ![Screenshot-10](https://github.com/user-attachments/assets/e0267008-6929-4a65-ad24-9fd8e554bc8b)
+- Gain = 39.22 dB and UGF = 5.63 MHz
 ### At ICMR = 1.6V
-- ![Screenshot-6](https://github.com/user-attachments/assets/6b34f17a-15ea-4f49-a4a5-73eeed5e0e88)
-- ![Screenshot-5](https://github.com/user-attachments/assets/370c2e1a-4e3f-40f7-8786-b97b6f809a4a)
-- Gain = 35.1 dB and UGF = 5.92MHz
+- ![Screenshot-9](https://github.com/user-attachments/assets/e9eb05dd-d601-412a-921e-ea9f1a5891d8)
+- ![Screenshot-8](https://github.com/user-attachments/assets/532b2bd9-4337-4e1b-b480-558b898559d5)
+- Gain = 35.87 dB and UGF = 5.71 MHz
 
 
 
