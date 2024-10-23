@@ -13,8 +13,8 @@
 
 ## Contents
 - [1. Extracting device parameters](#1-Finding-out-Device-parameters)
-  - [1.1 Values for NMOS](#1.1-NMOS)
-  - [1.2 Values for PMOS](#1.2-PMOS)
+  - [1.1 Values for NMOS](#11-NMOS)
+  - [1.2 Values for PMOS](#12-PMOS)
 - [2. Analysis of MOSFET models](#2-Analysis-of-MOSFET-models)
   - [2.1 General MOS analysis](#21-General-MOS-analysis)
   - [2.2 Strong 0 and Weak 1](#22-Strong-0-and-Weak-1)
