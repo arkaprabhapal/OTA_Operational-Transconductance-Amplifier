@@ -23,6 +23,7 @@
 - [4. Initial analysis](#4-Initial-analysis)
 - [5. Final Transistor dimensions](#5-Final-Transistor-dimensions)
 - [6. Final Analysis](#6-Final-Analysis)
+- [7. Final design](#7-Final-design)
 
 ## 1. Finding out Device parameters
 For that I have used this circuit :
