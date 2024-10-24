@@ -24,6 +24,8 @@
 - [5. Final Transistor dimensions](#5-Final-Transistor-dimensions)
 - [6. Final Analysis](#6-Final-Analysis)
 - [7. Final design](#7-Final-design)
+- [8. Further Analysis](8-Further-Analysis)
+  - [8.1 Calculation of CMRR (Common Mode Rejection Ratio)](81-Calculation-of-CMRR-(Common Mode Rejection Ratio))
 
 ## 1. Finding out Device parameters
 For that I have used this circuit :
@@ -100,6 +102,18 @@ It has been observed that Io increases linearly w.r.t Input common mode voltage.
 - ![Screenshot-13](https://github.com/user-attachments/assets/fa32796b-d7de-4ee7-af8a-40fb99170104)
 - **Symbol creation**
 - ![Screenshot-14](https://github.com/user-attachments/assets/a7de3671-85b2-4648-b4b1-8fa6e819db6d)
+
+## 8. Further Analysis
+### 8.1 Calculation of CMRR (Common Mode Rejection Ratio)
+I have used the following circuit for calculating CMRR.
+![Screenshot-31](https://github.com/user-attachments/assets/24d4a5e1-d8b9-4b65-a6f1-39b824f6a346)
+- At **ICMR = 0.8 V** :
+- ![Screenshot-28](https://github.com/user-attachments/assets/c2e6ffeb-0361-4d25-a81c-e004b19ffd51)
+- We are getting **CMRR = 81.2 dB** .
+- - At **ICMR = 1.6 V** :
+- ![Screenshot-29](https://github.com/user-attachments/assets/16375093-ae18-49b4-a852-4bdb62a63c67)
+- We are getting **CMRR = 83.03 dB** .
+
 
 
 
