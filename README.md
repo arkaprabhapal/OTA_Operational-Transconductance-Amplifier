@@ -24,8 +24,8 @@
 - [5. Final Transistor dimensions](#5-Final-Transistor-dimensions)
 - [6. Final Analysis](#6-Final-Analysis)
 - [7. Final design](#7-Final-design)
-- [8. Further Analysis](8-Further-Analysis)
-  - [8.1 Calculation of CMRR (Common Mode Rejection Ratio)](81-Calculation-of-CMRR-(Common Mode Rejection Ratio))
+- [8. Further Analysis](#8-Further-Analysis)
+
 
 ## 1. Finding out Device parameters
 For that I have used this circuit :
