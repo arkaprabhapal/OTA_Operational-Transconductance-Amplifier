@@ -114,6 +114,9 @@ I have used the following circuit for calculating CMRR.
 - ![Screenshot-29](https://github.com/user-attachments/assets/16375093-ae18-49b4-a852-4bdb62a63c67)
 - We are getting **CMRR = 83.03 dB** .
 
+### 8.2 Output swing
+![Screenshot-33](https://github.com/user-attachments/assets/53b37bb6-f79b-4bfb-8617-1c3d4e241b6a)
+Maximum Output swing = 1.367 V p-p
 
 
 
