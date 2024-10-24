@@ -65,24 +65,34 @@ Its dimensions were calculated from ICMR- value and the calculated value was (W/
 - ![Screenshot-4](https://github.com/user-attachments/assets/c2f19236-3c48-4963-8041-36b2338b3b24)
 - ![Screenshot-3](https://github.com/user-attachments/assets/6876d200-7ac2-4e22-9dcd-96a14a0d876f)
 - Gain = 34.2 dB and UGF = 5.07 MHz
-
 The gain is slightly low at ICMR = 1.6V and the ouput DC voltage level is slightly low than calculated. So the circuit is tuned accordingly.
+### Power consumption
+- I have observed the changed of Io w.r.t change in ICMR voltage.
+- ![Screenshot-12](https://github.com/user-attachments/assets/4e422a9d-b032-4374-bcf0-c21548ef38c7)
+It has been observed that Io increases linearly w.r.t Input common mode voltage. And at ICMR = 1.6V, Io = 57.42 μA. But the maximum limit is 55.55 μA. So, the value of current in current source of current mirror is tuned accordingly.
 
-## 5. Final Transistor dimensions
+## 5. Final Transistor tunings
 - **Current mirror PMOS** : (W/L) = **8**
 - **Input pair NMOS** : (W/L) = **9**
 - **Current mirror NMOS** : (W/L) = **5.87**
+- **Value of DC current of the OTA** : Io = 53 μA. This is the value of current at current source of the current sink of the OTA structure.
   
 ## 6. Final Analysis
 
 ### At ICMR = 0.8V
-- ![Screenshot-11](https://github.com/user-attachments/assets/a7a093a3-1394-4c71-a15e-9fb26329e387)
-- ![Screenshot-10](https://github.com/user-attachments/assets/e0267008-6929-4a65-ad24-9fd8e554bc8b)
-- Gain = 39.22 dB and UGF = 5.63 MHz
+- ![Screenshot-23](https://github.com/user-attachments/assets/a069651c-288f-46e1-9a2b-d3c1daef6bc6)
+- ![Screenshot-22](https://github.com/user-attachments/assets/285d222e-ef93-499d-a1ed-3e5ad554fd5d)
+- Gain = 39.31 dB and UGF = 5.53 MHz
 ### At ICMR = 1.6V
-- ![Screenshot-9](https://github.com/user-attachments/assets/e9eb05dd-d601-412a-921e-ea9f1a5891d8)
-- ![Screenshot-8](https://github.com/user-attachments/assets/532b2bd9-4337-4e1b-b480-558b898559d5)
-- Gain = 35.87 dB and UGF = 5.71 MHz
+- ![Screenshot-24](https://github.com/user-attachments/assets/3f17c8c8-970e-4c72-a5d9-a10e58455ce1)
+- ![Screenshot-25](https://github.com/user-attachments/assets/0232898c-6317-4f67-8e71-e2ca38a8478c)
+- Gain = 36.18 dB and UGF = 5.61 MHz
+### Power consumption
+- The value of Io is measured w.r.t change in Input common mode voltage.
+![Screenshot-21](https://github.com/user-attachments/assets/72766050-c5f7-4564-95a5-205155611bea)
+- Io increases linearly w.r.t ICM voltage and 52.97 μA ≤ Io ≤ 55.37 μA.
+- So, Power consumption, P ranges between 95.346 μW ≤ P ≤ 99.66 μW.
+
 
 ## 7. Final design
 - **FInal ciecuit design**
