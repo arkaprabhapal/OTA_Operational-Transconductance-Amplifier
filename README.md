@@ -11,6 +11,8 @@
 - ICMR+ = 1.6V
 - ICMR- = 0.8V
 
+Software and Library used : Cadence Virtuoso and gpdk90
+
 ## Contents
 - [1. Extracting device parameters](#1-Finding-out-Device-parameters)
   - [1.1 Values for NMOS](#11-NMOS)
