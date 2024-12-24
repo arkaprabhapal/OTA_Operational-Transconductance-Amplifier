@@ -27,6 +27,7 @@ Software and Library used : Cadence Virtuoso and gpdk90
 - [6. Final Analysis](#6-Final-Analysis)
 - [7. Final design](#7-Final-design)
 - [8. Further Analysis](#8-Further-Analysis)
+- [9. Noise analysis](#9-Noise-Analysis)
 
 
 ## 1. Finding out Device parameters
@@ -119,6 +120,9 @@ I have used the following circuit for calculating CMRR.
 ### 8.2 Output swing
 ![Screenshot-33](https://github.com/user-attachments/assets/53b37bb6-f79b-4bfb-8617-1c3d4e241b6a)
 Maximum Output swing = 1.367 V p-p
+
+## 9. Noise Analysis
+![Screenshot-57](https://github.com/user-attachments/assets/6d251ae4-d8c7-4bef-8a82-c28ac4ec6dc2)
 
 
 
